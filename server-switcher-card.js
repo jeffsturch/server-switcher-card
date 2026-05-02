@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-const VERSION = '0.2.1';
+const VERSION = '0.2.2';
 
 // ---------------------------------------------------------------------------
 // ha-form schemas (used by the visual editor)
