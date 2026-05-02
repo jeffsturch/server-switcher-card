@@ -1,0 +1,22 @@
+# Basic example: two homes, blue M for Millwood, green K for Kohl.
+# Drop this card into any dashboard. It floats — it doesn't render inline,
+# so its grid cell will look empty in the editor. That's expected.
+
+type: custom:server-switcher-card
+current:
+  letter: M
+  name: Millwood Home
+  color: "#4285f4"
+servers:
+  - letter: K
+    name: Kohl Cottage
+    color: "#0f9d58"
+    server: Cottage              # the Companion-app server name
+    path: dashboard-mobile        # the dashboard url_path on Cottage
+
+# --- Optional layout overrides ---
+# position:
+#   top: "80px"      # distance from top of the viewport
+#   right: "16px"    # distance from right edge
+# size: 40           # avatar diameter in pixels
+# header: "Switch home"
