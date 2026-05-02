@@ -11,12 +11,12 @@ The Home Assistant Companion app supports multiple servers, but the only built-i
 ```yaml
 type: custom:server-switcher-card
 current:
-  letter: M
-  name: Millwood Home
+  letter: H
+  name: Home
   color: "#4285f4"
 servers:
-  - letter: K
-    name: Kohl Cottage
+  - letter: C
+    name: Cottage
     color: "#0f9d58"
     server: Cottage
     path: dashboard-mobile
