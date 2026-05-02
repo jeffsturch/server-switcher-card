@@ -8,7 +8,9 @@ It renders as a floating circular avatar in the corner of your dashboard. Tap it
 
 ## Demo
 
-> _Screenshots / GIF coming soon._
+<img width="586" height="413" alt="Image" src="https://github.com/user-attachments/assets/03185339-827d-4295-be6d-3e0cf78e0097" />
+
+<img width="235" height="197" alt="Image" src="https://github.com/user-attachments/assets/648b12e7-ac5f-41c3-9bdb-1b34b43f6aaa" />
 
 ## Requirements
 
