@@ -14,7 +14,7 @@ It renders as a floating circular avatar in the corner of your dashboard. Tap it
 
 ## Requirements
 
-- Home Assistant Companion app (Android or iOS) with **two or more servers added** (Settings → Companion app → Servers).
+- Home Assistant Companion app (Android Only) with **two or more servers added** (Settings → Companion app → Servers).
 - The `homeassistant://navigate/<path>?server=<name>` URL scheme — built into the official Companion app since 2021. Confirmed working on Android.
 
 > The `homeassistant://` scheme only works inside the Companion app. In a regular browser or PWA, tapping a menu entry will do nothing — that's expected.
@@ -141,11 +141,15 @@ Check the `path` value — it should be the `url_path` of a dashboard that exist
 
 ## Roadmap
 
-- iOS testing and badge.
 - Color-picker swatches in the editor (currently hex string input).
 - Optional inline (non-floating) layout.
 - Position presets (top-left, bottom-right, etc.) without raw CSS lengths.
 - HACS default repository submission.
+
+## iOS Issues
+
+- Deeplinking not supported. Seems to be an iOS-specific WKWebView restriction, not something fixable purely in the card.
+- Path forward is either a feature request to the HA iOS Companion to add a JS-bridge "navigate to server" message, or a Safari-redirect detour (clunky but workable).
 
 ## Contributing
 
